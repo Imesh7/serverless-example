@@ -1,0 +1,11 @@
+service: my-typescript-service
+
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  region: us-east-1
+  stage: dev
+  environment:
+    NODE_ENV: dev
